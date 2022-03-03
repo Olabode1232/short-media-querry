@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div.container{
+background-color: whitesmoke;
+box-shadow: 3px 3px 4px 2px hsl(0, 24%, 69%),
+-3px -3px 3px -2px red ;
+   width: 50%;
+}
+h1{
+    color: thistle;
+    text-shadow: 2px 3px 4px rgb(162, 86, 86);
+}
+.fa-brands fa-facebook{
+    /* color: red; */
+    margin: 50px;
+    
+}
+.fa-brands fa-twitter{
+    margin: 360px;
+}
+.twitter{
+    color: blue;
+    margin: 3px;
+}
+.whatapp{
+    color: greenyellow;
+    margin: 3px;
+}
+.instagram{
+    color: deepskyblue;
+    margin: 3px;
+}
+
+
+@media(max-width: 470px){
+    div.container{
+     text-align: center;
+     width: 60%;
+    }
+    input{
+      color: blue;
+      width:90%;
+    }
+    h1{
+        color: pink;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 599px){
+    div.container{
+     text-align: center;
+     width: 40%;
+    }
+    input{
+       color: red;
+    }
+    h1{
+        color: pink;
+    }
+}
+
+
+@media(min-width: 600px){
+    div.container{
+     text-align: center;
+     width: 40%;
+    }
+    input{
+      color: blue;
+    }
+    h1{
+        color: pink;
+    }
+}
+
+
+@media(min-width: 650px){
+    div.container{
+     text-align: center;
+     width: 40%;
+    }
+    input{
+      color: blue;
+    }
+    h1{
+        color: red;
+    }
+}
+
+
+@media(min-width: 800px){
+    div.container{
+     text-align: center;
+     width: 40%;
+    }
+    input{
+      color: blue;
+    }
+    h1{
+        color:yellow;
+    }
+}
